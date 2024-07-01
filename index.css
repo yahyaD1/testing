@@ -1,0 +1,72 @@
+* {
+    font-family: "Kanit", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+header {
+    position: sticky;
+    background-color: rgb(232, 232, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        width: 100%;
+
+        li {
+            display: inline-block;
+            margin: 1em 2em;
+
+            * {
+                font-family: "Kanit", sans-serif;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: rgb(232, 232, 185);
+                position: fixed;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                ul {
+                    list-style: none;
+                    width: 100%;
+
+                    li {
+                        display: inline-block;
+                        margin: 1em 2em;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.login{
+    position: absolute;
+    right: 19px;
+}
+nav ul li:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    background:url(https://c1.wallpaperflare.com/preview/427/5/115/condominium-condo-architecture-apartment.jpg);
+}
